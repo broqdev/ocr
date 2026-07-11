@@ -32,11 +32,3 @@ This project builds on the following open-source projects and Apache-2.0 model r
 | OCR text recognition | [PaddlePaddle/PP-OCRv6_medium_rec](https://huggingface.co/PaddlePaddle/PP-OCRv6_medium_rec) |
 
 The linked PaddlePaddle checkpoints are the conversion sources. The converted JAX.js artifacts are project-generated derivatives; upstream model licenses and notices continue to apply.
-
-## Repository role
-
-This is the deployment-only repository for the static site. Generated files live under `site/`; the application source and conversion tooling live in the sibling local `ocr_js` repository.
-
-From the source checkout, `pnpm pages:build` transactionally replaces `ocr_pages/site`. It never commits or pushes. Review the generated diff here before publishing it.
-
-GitHub Actions deploys `site/` after changes reach `main`. Do not edit generated files by hand.
