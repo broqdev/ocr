@@ -1,0 +1,1 @@
+var e={schemaVersion:1,name:`tiny`,description:`Explicit lightweight JAX.js model set with the tiny OCR detector and recognizer pair.`,models:{"layout.det":`pp-doclayout-l-jaxjs`,"formula.rec":`pp-formulanet-plus-s-jaxjs`,"table.rec":`slanet-plus-table-jaxjs`,"ocr.det":`ppocr-v6-tiny-det-jaxjs`,"ocr.rec":`ppocr-v6-tiny-rec-jaxjs`}};export{e as default};

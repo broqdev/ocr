@@ -1,0 +1,1 @@
+var e={schemaVersion:1,name:`medium`,description:`Use PP-OCRv6 medium OCR with FP16 PP-DocLayout-L and PP-FormulaNet-plus-S JAX.js variants.`,models:{"layout.det":`pp-doclayout-l-fp16-jaxjs`,"formula.rec":`pp-formulanet-plus-s-fp16-jaxjs`,"table.rec":`slanet-plus-table-jaxjs`,"ocr.det":`ppocr-v6-medium-det-jaxjs`,"ocr.rec":`ppocr-v6-medium-rec-jaxjs`}};export{e as default};

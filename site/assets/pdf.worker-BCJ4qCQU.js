@@ -1,0 +1,1 @@
+var e=`/ocr/assets/pdf.worker-CPbhI6B3.mjs`;export{e as default};
