@@ -1,0 +1,1 @@
+import{r as e}from"./rolldown-runtime-BHe-jwch.js";import{t}from"./opencv-BC6yymA5.js";const n=e(t(),1).default;export{n as rawOpenCvModule};
